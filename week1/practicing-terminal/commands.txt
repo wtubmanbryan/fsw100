@@ -1,0 +1,3 @@
+cd 		//change directory
+mkdir		//creating directiory
+touch		//creating files
