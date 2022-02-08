@@ -1,0 +1,36 @@
+body{
+    background-color: aquamarine;
+    font-size: 20px;
+}
+h1{
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+h2, h4{
+    color: green;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.upperCase{
+    text-transform: uppercase;
+}
+
+.imageFloat{
+    float: left;
+    padding: 17px;
+}
+
+p #b{
+    color: pink;
+}
