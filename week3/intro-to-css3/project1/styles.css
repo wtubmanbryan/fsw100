@@ -1,17 +1,27 @@
 body{
-    background-color: aquamarine;
+    background-color: lightcyan;
     font-size: 20px;
 }
+
 h1{
     color: blue;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
 }
 
-h2, h4{
+h2{
     color: green;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
+}
+
+h4{
+    color: green;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p{
+    line-height: 20px;
 }
 
 a{
@@ -31,6 +41,6 @@ a:hover{
     padding: 17px;
 }
 
-p #b{
-    color: pink;
+p #b-lightcoral{
+    color:lightcoral;
 }
