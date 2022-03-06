@@ -1,0 +1,75 @@
+.red{
+    width: 300px;
+    height: 100px;
+    background-color: pink;
+    margin: auto;
+}
+.red:hover{
+    background-color:red;
+    border: solid 2px purple;
+}
+
+.green{
+    width: 300px;
+    height: 100px;
+    background-color: lightgreen;
+    margin: auto;
+}
+.green:hover{
+    background-color:green;
+    border: dashed 3px yellow;
+    width:400px;
+}
+
+
+.blue{
+    width: 300px;
+    height: 100px;
+    background-color: cornsilk;
+    margin: auto;
+}
+.blue:hover{
+    background-color:bisque;
+    border: solid 3px yellow;
+    width:300px;
+}
+
+.yellow{
+    width: 300px;
+    height: 100px;
+    background-color: violet;
+    margin: auto;
+}
+.yellow:hover{
+    background-color:orangered;
+    border: dashed 4px black;
+    width:300px;
+}
+
+
+.sandbrown{
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    padding-top: 2% ;
+    background-color: rgb(130, 238, 175);
+    margin: auto;
+}
+.sandbrown:hover{
+    background-color:orangered;
+    border: solid 4px black;
+    width:300px;
+}
+
+
+.orange{
+    width: 300px;
+    height: 100px;
+    opacity: gold ;
+    margin: auto;
+}
+.orange:hover{
+    background-color:black;
+    border: dashed 4px rgb(78, 47, 255);
+    width: 300px;
+}
