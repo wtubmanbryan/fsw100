@@ -21,11 +21,12 @@
     width:400px;
 }
 
-
 .blue{
     width: 300px;
     height: 100px;
-    background-color: cornsilk;
+    box-shadow: 50px;
+    border-radius: 0%;
+    background-color: rgb(72, 75, 75);
     margin: auto;
 }
 .blue:hover{
@@ -39,13 +40,14 @@
     height: 100px;
     background-color: violet;
     margin: auto;
+    transition: background-color 1.5s 1s ease-in-out;
 }
 .yellow:hover{
     background-color:orangered;
     border: dashed 4px black;
-    width:300px;
-}
+    
 
+}
 
 .sandbrown{
     width: 300px;
@@ -66,10 +68,14 @@
     width: 300px;
     height: 100px;
     opacity: gold ;
+    border-radius: 5%;
     margin: auto;
+    background-color: blue;
+    transition: background-color 1s ease-in-out;
+    transition: width 1.5s 1s ease-in-out;
 }
 .orange:hover{
     background-color:black;
     border: dashed 4px rgb(78, 47, 255);
-    width: 300px;
+    width: 600px;
 }
