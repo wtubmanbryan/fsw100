@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>DECor Inc.| Interior Design</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<!-- Sidebar/menu -->
+<nav class="wt-sidebar wt-red wt-collapse wt-top wt-large wt-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="wt_close()" class="wt-button wt-hide-large wt-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="wt-container">
+    <div class="wt-logo"><img src="logo/logo-DECOr.png"alt="logo"></div>
+    <h2 class="wt-padding-64"><b>DECor Inc.</b></h2>
+  </div>
+  <div class="wt-bar-block">
+    <!-- <a href="#" onclick="wt_close()" class="wt-bar-item wt-button wt-hover-white">Home</a>  -->
+    <a href="index.html" onclick="wt_close()" class="wt-bar-item wt-button wt-hover-white">Showroom</a> 
+    <a href="index.html#services" onclick="wt_close()" class="wt-bar-item wt-button wt-hover-white">Services</a> 
+    <a href="designer.html" onclick="wt_close()" class="wt-bar-item wt-button wt-hover-white">Designers</a> 
+    <a href="packages.html" onclick="wt_close()" class="wt-bar-item wt-button wt-hover-white">Packages</a> 
+    <a href="contact.html" onclick="wt_close()" class="wt-bar-item wt-button wt-hover-white">Contact</a>
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="wt-container wt-top wt-hide-large wt-red wt-xlarge wt-padding">
+  <a href="javascript:void(0)" class="wt-button wt-red wt-margin-right" onclick="wt_open()">☰</a>
+  <span>DECor Inc.</span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="wt-overlay wt-hide-large" onclick="wt_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="wt-main" style="margin-left:340px;margin-right:40px">
+ 
+  <!-- Designers -->
+  <div class="wt-container" id="designers" style="margin-top:75px">
+    <h1 class="wt-xxxlarge wt-text-red"><b>Designers.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="wt-round">
+    <p>The best team in the world.</p>
+    <p>The title isn’t an exaggeration, either. The men and women that make up the top echelon of the interior design field are the most talented, innovative, and hardworking in any marketplace.
+       By hiring them for your next project, you can get whatever your heart desires: a beautiful home, a big-name firm name on your credit card receipt, or even a cushy business relationship with one of these professionals.
+       Superior work makes for satisfied homeowners who may be inclined to refer their designer’s peers to them, 
+       so it will certainly be worth the investment for you.
+    </p>
+    <p><b>Our designers are thoughtfully chosen</b>:</p>
+  </div>
+
+  <!-- The Team -->
+  <div class="wt-row-padding wt-grayscale">
+    <div class="wt-col m4 wt-margin-bottom">
+      <div class="wt-light-grey wt-animate-zoom">
+        <img src="images/team2.jpg" alt="Jane" style="width:100%">
+        <div class="wt-container">
+          <h3>Jane Delton</h3>
+          <p class="wt-opacity">CEO & Founder</p>
+          <p>She’s a great interior designer.With four successful companies under her belt, she’s doing something right. Jane and her team have a skill for making sure what you get works for your budget.</p>
+        </div>
+      </div>
+    </div>
+    <div class="wt-col m4 wt-margin-bottom">
+      <div class="wt-light-grey wt-animate-zoom">
+        <img src="images/team4.jpg" alt="John" style="width:100%">
+        <div class="wt-container">
+          <h3>Anthony Tokpa</h3>
+          <p class="wt-opacity">Designer</p>
+          <p>As an interior design firm and having been in the industry for over 10 years, I can say with confidence that my team is the best team in the world. We pride ourselves as trusted professionals.</p>
+        </div>
+      </div>
+    </div>
+    <div class="wt-col m4 wt-margin-bottom">
+      <div class="wt-light-grey wt-animate-zoom">
+        <img src="images/team3.jpg" alt="Mike" style="width:100%">
+        <div class="wt-container">
+          <h3>Mike Ross</h3>
+          <p class="wt-opacity">Architect</p>
+          <p>Joined the firm in 2010. He's worked projects all over the world, including  Austrailia, France, & Greenland. Since joining the firm, he’s an excellent  partner & he now leads the North America office.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+
+<!-- End page content -->
+</div>
+
+<!-- Footer Container -->
+<footer>
+    <div class="wt-light-grey wt-container wt-padding-32" style="margin-top:75px;padding-right:58px">
+        <p class="wt-center">
+            <i class="wt-hover-text-cyan">&copy;Copyright <script>document.write(new Date().getFullYear())</script> DECor Inc.  </i> 
+            <a href="http://www.facebook.com/decorinc"><i class="wt-hover-text-cyan fa fa-facebook" style="font-size:20px; color: blue;"></i></a>
+            <a href="http://www.twitter.com/@decorinc"><i class="fa fa-twitter wt-hover-text-cyan" style="font-size:20px; color: lightblue;"></i></a>
+            <a href="http://www.instagram.com/@decorinc"><i class="fa fa-instagram wt-hover-text-cyan" style="font-size:20px; color: red;"></i></a>
+        </p>
+    </div>
+    </footer>
+<script src="script.js"></script>
+
+</body>
+</html>

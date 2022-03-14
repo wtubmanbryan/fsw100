@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>DECor Inc.| Interior Design</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<!-- Sidebar/menu -->
+<nav class="wt-sidebar wt-red wt-collapse wt-top wt-large wt-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="wt_close()" class="wt-button wt-hide-large wt-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="wt-container">
+    <div class="wt-logo"><img src="logo/logo-DECOr.png"alt="logo"></div>
+    <h2 class="wt-padding-64"><b>DECor Inc.</b></h2>
+  </div>
+  <div class="wt-bar-block">
+    <!-- <a href="#" onclick="wt_close()" class="wt-bar-item wt-button wt-hover-white">Home</a>  -->
+    <a href="index.html" onclick="wt_close()" class="wt-bar-item wt-button wt-hover-white">Showroom</a> 
+    <a href="index.html#services" onclick="wt_close()" class="wt-bar-item wt-button wt-hover-white">Services</a> 
+    <a href="designer.html" onclick="wt_close()" class="wt-bar-item wt-button wt-hover-white">Designers</a> 
+    <a href="packages.html" onclick="wt_close()" class="wt-bar-item wt-button wt-hover-white">Packages</a> 
+    <a href="contact.html" onclick="wt_close()" class="wt-bar-item wt-button wt-hover-white">Contact</a>
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="wt-container wt-top wt-hide-large wt-red wt-xlarge wt-padding">
+  <a href="javascript:void(0)" class="wt-button wt-red wt-margin-right" onclick="wt_open()">☰</a>
+  <span>DECor Inc.</span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="wt-overlay wt-hide-large" onclick="wt_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="wt-main" style="margin-left:340px;margin-right:40px">
+  <!-- Packages / Pricing Tables -->
+  <div class="wt-container" id="packages" style="margin-top:75px">
+    <h1 class="wt-xxxlarge wt-text-red"><b>Packages.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="wt-round">
+    <p>The best pricing package in the world. That's right. I'm a little bit over-exaggerating, but... we are pretty confident you will love it. Let me show you what we mean.</p>
+  </div>
+
+  <div class="wt-row-padding">
+    <div class="wt-half wt-margin-bottom">
+      <ul class="wt-ul wt-light-grey wt-center">
+        <li class="wt-dark-grey wt-xlarge wt-padding-32">Basic</li>
+        <li class="wt-padding-16">Floor planning</li>
+        <li class="wt-padding-16">10 hours support</li>
+        <li class="wt-padding-16">Photography</li>
+        <li class="wt-padding-16">20% furniture discount</li>
+        <li class="wt-padding-16">Good deals</li>
+        <li class="wt-padding-16">
+          <h2>$ 199</h2>
+          <span class="wt-opacity">per room</span>
+        </li>
+        <li class="wt-light-grey wt-padding-24">
+          <button class="wt-button wt-white wt-padding-large wt-hover-black">Sign Up</button>
+        </li>
+      </ul>
+    </div>
+        
+    <div class="wt-half">
+      <ul class="wt-ul wt-light-grey wt-center">
+        <li class="wt-red wt-xlarge wt-padding-32">Pro</li>
+        <li class="wt-padding-16">Floor planning</li>
+        <li class="wt-padding-16">50 hours support</li>
+        <li class="wt-padding-16">Photography</li>
+        <li class="wt-padding-16">50% furniture discount</li>
+        <li class="wt-padding-16">GREAT deals</li>
+        <li class="wt-padding-16">
+          <h2>$ 249</h2>
+          <span class="wt-opacity">per room</span>
+        </li>
+        <li class="wt-light-grey wt-padding-24">
+          <button class="wt-button wt-red wt-padding-large wt-hover-black">Sign Up</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+<!-- End page content -->
+</div>
+
+<!-- Footer Container -->
+<footer>
+    <div class="wt-light-grey wt-container wt-padding-32" style="margin-top:75px;padding-right:58px">
+        <p class="wt-center">
+            <i class="wt-hover-text-cyan">&copy;Copyright <script>document.write(new Date().getFullYear())</script> DECor Inc.  </i> 
+            <a href="http://www.facebook.com/decorinc"><i class="wt-hover-text-cyan fa fa-facebook" style="font-size:20px; color: blue;"></i></a>
+            <a href="http://www.twitter.com/@decorinc"><i class="fa fa-twitter wt-hover-text-cyan" style="font-size:20px; color: lightblue;"></i></a>
+            <a href="http://www.instagram.com/@decorinc"><i class="fa fa-instagram wt-hover-text-cyan" style="font-size:20px; color: red;"></i></a>
+        </p>
+    </div>
+    </footer>
+<script src="script.js"></script>
+
+</body>
+</html>
